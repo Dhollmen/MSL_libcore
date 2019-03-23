@@ -257,8 +257,8 @@ import static android.system.OsConstants.*;
                         suppressedExceptions.add(suppressed);
                     }
                 }
-            } else {
-                System.logW("ClassLoader referenced unknown path: " + file);
+            //} else {
+            //    System.logW("ClassLoader referenced unknown path: " + file);
             }
 
             if ((zip != null) || (dex != null)) {
